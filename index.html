@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body {
+            background-color: rgb(200, 200, 200);
+        }
+
+        body,
+        button,
+        div,
+        span {
+            margin-top: 10vh;
+            display: inline;
+            font-size: 25px;
+        }
+
+        button {
+            font-size: 25px;
+        }
+
+        div {
+            /* border: 1px solid black; */
+            padding: 20px;
+            margin-top: 2vh;
+        }
+    </style>
+    <title>Kurs React</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <!-- Biblioteka React -->
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <!-- Biblioteka React DOM -->
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <!-- Babel - Nie korzystamy na produkcji (tylko podczas developmentu) -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+    <!-- JS !!!type="text/babel"!!! -->
+    <!-- // display array elements as list:::::::::::; -->
+    <script type="text/babel" src="App.js"></script>
+    <script type="text/babel" src="Header.js"></script>
+    <script type="text/babel" src="Item.js"></script>
+    <script type="text/babel" src="ProductsList.js"></script>
+    <script type="text/babel" src="main.js"></script>
+
+</body>
+
+</html>
