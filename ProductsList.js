@@ -8,7 +8,6 @@ const ProcuctsList = (props) => {
         name={item.name}
         active={item.active}
         changeStatus={props.changeActive}
-        
         />
     ))
 

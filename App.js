@@ -14,7 +14,7 @@ class App extends React.Component {
     // handle----------------
 
     handleChangeActive = (id) => {
-     console.log(id)
+    //  console.log(id)
         const products = this.state.products.map(item => {
             if(id === item.id){
                 item.active = !item.active
@@ -26,11 +26,7 @@ class App extends React.Component {
     this.setState({
         products: products
     })
-
-
-    // 
     }
-
 
     // render---------------
     render(){

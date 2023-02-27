@@ -3,10 +3,7 @@ const Header = (props) => {
         
         return item.active === true})
 
-
-
-
-        console.log(activeProducts)
+        // console.log(activeProducts)
     return(
         <h2>Dodaj do zamówienia: {activeProducts.length}</h2>
 
